@@ -1,4 +1,3 @@
-
 /*
 * ServerApplication.java, ClientApplication.java
 * @author - Janna McLaughlin
@@ -13,9 +12,9 @@
 * Things to add include:
 * Threads 
 * - multi-threading the server would allow for multiple clients to connect at once, send data, and to print that data.
-* 		it could also allow the server to send/receive data at the same time, all while keeping a player engaged in a running game
-* 		The server must also update game states, and should not always have to worry about receiving client data. It should be able to
-* 		update without lag and then send off any updates to clients.
+* 	it could also allow the server to send/receive data at the same time, all while keeping a player engaged in a running game
+* 	The server must also update game states, and should not always have to worry about receiving client data. It should be able to
+* 	update without lag and then send off any updates to clients.
 * - multi-threading the client would allow for sending and receiving data at the same time and client-side updates of the game state
 * I would also include an elegant way to stop the server.
 */
